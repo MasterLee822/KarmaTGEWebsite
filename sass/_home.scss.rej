@@ -1,0 +1,24 @@
+diff a/sass/_home.scss b/sass/_home.scss	(rejected hunks)
+@@ -130,19 +130,14 @@
+ /*====== MARKETING OUTREACH ======*/
+ 
+ #marketing-outreach {
+-	color: white !important;
+-	background: url('../img/event_background.jpg') no-repeat center top;
+-	background-size: cover;
+-
+ 	.marketing-outreach-content {
+-		background: url('../img/event_map.png') no-repeat center top;
+-		background-size: initial;
+-		//padding: 20px 0 0;
++		background: url('../img/marketing-outreach-BG.jpg') no-repeat center top;
++		background-size: cover;
++		padding: 70px 0 0;
+ 	}
+ 	.table {
+ 		max-width: 100% !important;
+ 		word-wrap: break-word;
+-		font-size: 14px;
+ 		tr {
+ 			td {
+ 				font-size: .9em;

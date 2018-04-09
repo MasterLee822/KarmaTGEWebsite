@@ -1,0 +1,173 @@
+
+/*====== PAGE ======*/
+
+.page {
+	background: $purple;
+	background: linear-gradient(#6d3569, #c886ae);
+	text-align: left;
+	min-height: 100vh;
+	.page-container {
+		background: white;
+		margin-top: 60px;
+		padding-bottom: 50px;
+	}
+	section {
+		text-align: left;
+	}
+	.page-header {
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		border: 0;
+	}
+	.page-title {
+		margin: 0 0 15px;
+		padding: 15px 0;
+		border-bottom: 1px solid $gray-lighter;
+	}
+}
+
+
+
+/*====== PAGE MEDIA ======*/
+
+.page-media {
+
+	.page-section {
+		@extend .clearfix;
+		padding: 0;
+	}
+	.horz-divider {
+		hr {
+			margin: 30px 0;
+		}
+	}
+	.section-header {
+		margin: 0 0 15px;
+	}
+	.section-title {
+		background: $gray-dark;
+		color: white;
+		font-size: 26px;
+		font-weight: bold;
+		margin: 0;
+		padding: 4px 15px;
+	}
+
+	.section-subtitle {
+		background: $gray-lighter;
+		margin: 0;
+		h4 {
+			font-size: 16px;
+			font-weight: 600;
+			text-transform: uppercase;
+			padding: 0;
+			margin: 5px 0;
+		}
+	}
+
+	article {
+		.article-content-wrapper {
+			background: $gray-lighter;
+			border-radius: 30px;
+			overflow: hidden;
+		}
+		.article-header {
+			padding: 0 20px;
+			.date {
+				font-weight: 900;
+				font-size: 20px;
+				margin: 20px 0 7px;
+			}
+			h3 {
+				margin: 0 0 10px;
+				a {
+					color: $purple;
+					&:hover {
+						color: $purple-dark;
+					}
+				}
+			}
+		}
+		.article-body {
+			padding: 0 20px;
+			.read-more {
+				margin: 0 0 20px;
+			}
+		}
+		.article-footer {
+			background: $purple;
+			color: white;
+			padding: 15px 5px 0;
+			h4 {
+				font-size: 16px;
+				font-weight: normal;
+				text-transform: uppercase;
+				margin: 0;
+			}
+			.numbers-lg {
+				font-size: 42px;
+				font-weight: 900;
+				line-height: 1;
+				margin-bottom: 15px;
+			}
+		}
+	}
+
+	.articles-list {
+		margin-bottom: 20px;
+		article {
+			border-bottom: 1px solid $gray-lighter;
+			padding: 10px 0;
+		}
+		.daily-audience-wrapper {
+			padding: 13px 15px;
+		}
+		.read-more-wrapper {
+			padding: 13px 15px;
+		}
+		.all-articles-wrapper {
+			.btn {
+				font-weight: bold;
+			}
+		}
+	}
+
+	.featured-article {
+		.featured-header {
+			background: #754285;
+			color: white;
+			padding: 10px 20px;
+			margin: 0 0 30px;
+			border-radius: 25px;
+		}
+		.featured-title {
+			padding: 0;
+			margin: 0;
+		}
+		.featured-date {
+			font-size: 28px;
+			font-weight: 900;
+			margin: 0 0 30px;
+		}
+		.featured-image-wrapper {
+			max-width: 400px;
+			img {
+			}
+		}
+		.featured-body {
+			background: #472368;
+			border-radius: 30px;
+			color: white;
+			margin: -98px 0 0;
+			padding: 30px;
+			h3 {
+				margin-top: 0;
+			}
+			p {
+				margin: 0 0 15px;
+			}
+		}
+	}
+}

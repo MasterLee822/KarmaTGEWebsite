@@ -1,0 +1,205 @@
+@media (max-width: $screen-sm-max) {
+	.page-media {
+		article {
+			.article-content-wrapper {
+				margin-bottom: 15px;
+			}
+		}
+		.section-title {
+			display: none;
+		}
+		.section-subtitle {
+			display: none;
+		}
+		.articles-list {
+			text-align: center;
+			img {
+				margin: 0 auto;
+			}
+		}
+		.featured-article {
+			.featured-body {
+				margin-top: 40px;
+			}
+		}
+	}
+}
+
+
+
+
+@media (max-width: $screen-xs-max) {
+
+	h2 {
+		font-size: 1.7em;
+	}
+	h3 {
+		font-size: 1.1em;
+	}
+	h4 {
+		font-size: 1em;
+	}
+
+	.modal {
+		img {
+			max-width: 250px;
+			margin: 0 auto;
+		}
+	}
+
+	#mc_embed_signup {
+		#mce-EMAIL {
+			text-align: center;
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				font-size: 13px;
+				letter-spacing: -1px;
+				font-weight: 700;
+			}
+			&::-moz-placeholder { /* Firefox 19+ */
+				font-size: 13px;
+				letter-spacing: -1px;
+				font-weight: 700;
+			}
+			&:-ms-input-placeholder { /* IE 10+ */
+				font-size: 13px;
+				letter-spacing: -1px;
+				font-weight: 700;
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+				font-size: 13px;
+				letter-spacing: -1px;
+				font-weight: 700;
+			}
+		}
+	}
+
+	.navbar {
+		.container {
+			//padding: 0;
+		}
+		.navbar-header {
+			//margin: 0;
+		}
+		.navbar-collapse {
+			//margin: 0;
+			//padding: 0;
+		}
+		.navbar-nav {
+			//margin: 0;
+		}
+	}
+	.navbar-toggle {
+		//margin-right: 0;
+	}
+
+	.social {
+		li {
+			margin: 0 1px;
+			.fa {
+				width: 40px;
+				height: 40px;
+				padding: 7px;
+			}
+		}
+	}
+
+	#intro {
+		h2 {
+			font-size: 20px;
+		}
+		h1 {
+			font-size: 36px;
+		}
+		h3 {
+			font-size: 14px;
+		}
+		.box {
+			margin: 0 5px;
+		}
+		.number {
+			font-size: 30px;
+		}
+		input {
+			width: 100% !important;
+			&[type="submit"] {
+				border-radius: 100px;
+			}
+		}
+	}
+
+	#about-karma {
+		.about-karma-list {
+			li {
+				margin: 0 0 0 25px;
+			}
+		}
+	}
+
+	#technology-stack {
+		img {
+			margin-top: -70px;
+		}
+	}
+
+}
+
+
+
+@media (max-width: 480px) {
+
+	#intro {
+		h3 {
+			font-size: 13px;
+			margin: 5px auto;
+		}
+	}
+
+	.clockdiv {
+		margin: -4px auto 0;
+		.box {
+			margin: 0 7px;
+			.number {
+				font-size: 40px;
+			}
+			.subtitle {
+				font-size: 12px;
+			}
+		}
+	}
+
+	.social {
+		li {
+			margin: 0 1px;
+			.fa {
+				font-size: 20px;
+				width: 32px;
+				height: 32px;
+				padding: 6px;
+			}
+		}
+	}
+
+	#marketing-outreach {
+		.table {
+			font-size: 12px;
+			tr {
+				td {
+					&:first-child {
+						min-width: 60px;
+						max-width: 70px;
+						padding-left: 0;
+						padding-right: 5px;
+					}
+					&:nth-child(2) {
+						padding-left: 5px;
+						padding-right: 5px;
+					}
+					&:last-child {
+						padding-left: 5px;
+						padding-right: 0;
+					}
+				}
+			}
+		}
+	}
+}

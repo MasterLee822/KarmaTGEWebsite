@@ -1,0 +1,234 @@
+/*====== INTRO ======*/
+
+#intro {
+	background: url('../img/intro-BG.jpg') no-repeat center bottom;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+	.container, .row, .col-xs-12 {
+		height: 100%;
+	}
+	.intro-content-wrapper {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.intro-content {
+		width: 100%;
+	}
+	h2 {
+		font-family: $montserrat;
+		font-weight: normal;
+		text-transform: uppercase;
+		line-height: .9;
+		margin-bottom: 0;
+	}
+	h1 {
+		font-family: $montserrat;
+		font-size: 60px;
+		font-weight: 900;
+		line-height: .8;
+		text-transform: uppercase;
+		margin-top: 0;
+	}
+	h3 {
+		font-size: 22px;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+}
+
+
+/*====== ABOUT KARMA ======*/
+
+#about-karma {
+	padding: 50px 0;
+	h3 {
+		//font-size: 26px;
+		font-weight: 900;
+		margin: 50px 0 30px;
+	}
+	p {
+		//font-size: 26px;
+		margin-bottom: 30px;
+	}
+	.about-karma-list {
+		margin-bottom: 0;
+		li {
+			border-bottom: 1px solid #ccc;
+			margin-left: 25%;
+			margin-right: 25%;
+			list-style-type: disc;
+			text-align: left;
+			color: $purple-dark;
+			font-weight: 900;
+			padding: 15px 0;
+			&:last-child {
+				background: none;
+			}
+		}
+	}
+}
+
+
+/*====== DOCUMENTATION ======*/
+
+#documentation {
+	background: url('../img/documentation-BG.jpg') no-repeat center top;
+	background-size: cover;
+	color: white;
+	img {
+		margin: 0 auto;
+	}
+}
+
+
+/*====== TECHNOLOGY STACK ======*/
+
+#technology-stack {
+	background: url('../img/technology-stack-BG.jpg') no-repeat center top;
+	color: white;
+	img {
+		margin-top: -100px;
+	}
+}
+
+
+/*====== PROJECT ROADMAP ======*/
+
+#project-roadmap {
+	background: url('../img/project-roadmap-BG.jpg') no-repeat center top;
+	background-size: cover;
+	color: white;
+}
+
+
+/*====== TOKEN SALES KEY DATES ======*/
+
+#token-sales-key-dates {
+	img {
+		max-width: 200px;
+		margin: 0 auto;
+	}
+}
+
+
+/*====== TGE BONUSES ======*/
+
+#tge-bonuses {
+	background: url('../img/tge-bonuses-BG.jpg') no-repeat center top;
+	background-size: cover;
+	color: white;
+	p {
+		margin-bottom: 30px;
+	}
+}
+
+
+/*====== MARKETING OUTREACH ======*/
+
+#marketing-outreach {
+	color: white !important;
+	background: url('../img/event_background.jpg') no-repeat center top;
+	background-size: cover;
+
+	.marketing-outreach-content {
+		background: url('../img/event_map.png') no-repeat center top;
+		background-size: initial;
+		//padding: 20px 0 0;
+	}
+	.table {
+		max-width: 100% !important;
+		word-wrap: break-word;
+		font-size: 14px;
+		tr {
+			td {
+				font-size: .9em;
+				font-weight: 700;
+				text-align: left;
+				text-transform: uppercase;
+				border: 0;
+				padding: 3px 15px;
+				&:first-child {
+					padding-left: 0;
+				}
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+		}
+	}
+}
+
+
+/*====== OUR TEAM & ADVISORS ======*/
+
+#team {
+	padding-bottom: 0;
+	.team-member {
+		min-height: 460px;
+	}
+}
+#blockchain-experts {
+	padding-bottom: 0;
+	.team-member {
+		min-height: 430px;
+	}
+}
+#legal-advisors {
+	padding-bottom: 0;
+	.team-member {
+		min-height: 430px;
+	}
+}
+#marketing-team {
+	padding-bottom: 0;
+	.team-member {
+		min-height: 460px;
+	}
+}
+#advisors {
+	padding-bottom: 0;
+	.team-member {
+		min-height: 510px;
+	}
+}
+.team-members {
+	.team-member {
+		transition: $transition-fast;
+		padding: 0;
+		&:hover {
+			opacity: .7;
+		}
+		.team-member-picture {
+			background-position: center top;
+			background-size: cover;
+			width: 100%;
+			height: 360px;
+			min-height: 360px;
+		}
+		.overlay {
+			//background: rgba($purple, .6);
+			//color: white;
+			//margin: 0 -15px;
+			padding: 15px;
+			//position: absolute;
+			//bottom: 0;
+			//width: 100%;
+			h3 {
+				color: $purple;
+				font-size: 26px;
+				margin: 0;
+			}
+			p {
+				color: $text-color;
+				margin: 0;
+			}
+		}
+	}
+}
+.modal-body img {
+	margin: 0 auto;
+}
